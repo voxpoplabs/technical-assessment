@@ -1,0 +1,197 @@
+{
+    "questions": {
+        "Q9": {
+            "id": "Q9",
+            "type": "policy",
+            "category": "lawOrder",
+            "choiceGroup": "AgreeDisagree",
+            "answerType": "single",
+            "displayType": "radio",
+            "label": {
+                "en": "People who break the law should be given harsher sentences.",
+                "fr": "Les personnes qui enfreignent la loi devraient recevoir des sanctions plus sévères."
+            },
+            "order": "0.9817"
+        },
+        "Q15": {
+            "id": "Q15",
+            "type": "policy",
+            "category": "federalProvincialRelations",
+            "choiceGroup": "AgreeDisagree",
+            "answerType": "single",
+            "displayType": "radio",
+            "label": {
+                "en": "The federal government should have more control over how provinces run their affairs.",
+                "fr": "Le gouvernement fédéral devrait avoir plus de contrôle sur la gestion des affaires publiques des provinces."
+            },
+            "learnMore": {
+                "en": "In Canada, powers are divided between the federal government and the provincial governments. For example, the federal government handles things like national defence, foreign affairs, and citizenship, while provincial governments take care of education, health, and natural resources. Some powers, like immigration, are shared between the two levels of government.\n\nIn this system, the federal government can influence provincial matters by providing funding for programs and policies, like healthcare. This funding usually comes with certain conditions that the provinces must meet in order to get the money.",
+                "fr": "Au Canada, les compétences sont réparties entre le gouvernement fédéral et les gouvernements provinciaux. Par exemple, le gouvernement fédéral s'occupe de la défense nationale, des affaires étrangères et de la citoyenneté, tandis que les gouvernements provinciaux s'occupent de l'éducation, de la santé et des ressources naturelles. Certaines compétences, comme l'immigration, sont partagées entre les deux ordres de gouvernement.\n\nDans ce système, le gouvernement fédéral peut influencer les affaires provinciales en offrant du financement pour certains programmes, notamment dans le domaine de la santé. Ce financement est souvent accompagné de conditions que les provinces doivent remplir pour obtenir les fonds."
+            },
+            "order": "0.9712"
+        },
+        "Q44": {
+            "id": "Q44",
+            "type": "policy",
+            "category": "environment",
+            "choiceGroup": "AgreeDisagree",
+            "answerType": "single",
+            "displayType": "radio",
+            "label": {
+                "en": "Canada should do more to reduce its carbon emissions.",
+                "fr": "Le Canada devrait en faire plus pour réduire ses émissions de carbone."
+            },
+            "learnMore": {
+                "en": "Current estimates show that Canada is not on track to meet its goal of reducing carbon emissions by 45% from 2005 levels by 2030. To help reach this target, policies like a national clean fuel standard and the carbon tax (which imposes separate prices on pollution for consumers and businesses) have been introduced. Recently, the federal government announced it will no longer charge consumers a carbon price but will still apply it to businesses.",
+                "fr": "Les plus récentes estimations indiquent que le Canada ne pourra pas atteindre son objectif de réduire de 45% ses émissions de gaz à effet de serre d'ici 2030. Des politiques comme le Règlement sur les combustibles propres et la taxe carbone pour les particuliers et les entreprises ont été mises en place ces dernières années pour atteindre cet objectif. Le gouvernement fédéral a récemment aboli la taxe carbone pour les consommatrices et consommateurs, mais conserve celle qui s'applique aux entreprises."
+            },
+            "order": "0.8910"
+        },
+        "Q11": {
+            "id": "Q11",
+            "type": "policy",
+            "category": "lawOrder",
+            "choiceGroup": "AgreeDisagree",
+            "answerType": "single",
+            "displayType": "radio",
+            "label": {
+                "en": "The government should spend more on policing to keep our communities safe.",
+                "fr": "Le gouvernement devrait consacrer plus d'argent aux services policiers pour assurer la sécurité de nos communautés."
+            },
+            "learnMore": {
+                "en": "There are different views on how public money should be used to deal with crime. One side argues that law enforcement should be given more funding to catch criminals and ensure they are punished. The other side believes taxpayer money should be spent on addressing the causes of crime, such as poverty, homelessness, and substance abuse.",
+                "fr": "Les avis divergent sur la meilleure façon de lutter contre la criminalité. Certaines personnes estiment qu'il faudrait augmenter le financement des forces policières pour retrouver les personnes criminelles et veiller à ce qu'elles soient punies. D'autre pensent plutôt que ces fonds devraient être utilisés pour s'attaquer aux causes profondes de la criminalité, telles que la pauvreté, l'itinérance et la toxicomanie."
+            },
+            "order": "0.8247"
+        },
+        "Q31": {
+            "id": "Q31",
+            "type": "policy",
+            "category": "incomeInequality",
+            "choiceGroup": "AgreeDisagree",
+            "answerType": "single",
+            "displayType": "radio",
+            "label": {
+                "en": "The federal government should make sure that all Canadians have a minimum income, even if they don’t have a job.",
+                "fr": "Le gouvernement fédéral devrait veiller à ce que tous les Canadiens reçoivent un revenu minimum, même s'ils n'ont pas d'emploi."
+            },
+            "learnMore": {
+                "en": "Guaranteed Basic Income is a policy idea where every Canadian would receive a regular cheque from the government, regardless of whether they have a job. Supporters believe this could significantly reduce poverty and income inequality. However, estimates suggest that such a policy could cost $51 billion, which would be 11% of the federal government's planned spending for 2024-2025.",
+                "fr": "Le revenu minimum garanti est une politique qui vise à verser des paiements réguliers aux Candiennes et Canadiens, qu'ils aient un emploi ou non. Les personnes qui soutiennent l'idée d'un revenu minimum garanti pensent que cela pourrait réduire la pauvreté et les écarts de richesse. Certaines estimations avancent cependant que cette politique pourrait coûter plus de 51 milliards de dollars, ce qui représente 11% des dépenses du gouvernement fédéral prévues en 2024-2025."
+            },
+            "order": "0.0928"
+        }
+    },
+    "choiceGroups": {
+        "AgreeDisagree": {
+            "id": "AgreeDisagree",
+            "splitOffLast": "right",
+            "choices": [
+                {
+                    "value": 1,
+                    "label": {
+                        "en": "Strongly disagree",
+                        "fr": "Fortement en désaccord"
+                    }
+                },
+                {
+                    "value": 2,
+                    "label": {
+                        "en": "Somewhat disagree",
+                        "fr": "Plutôt en désaccord"
+                    }
+                },
+                {
+                    "value": 3,
+                    "label": {
+                        "en": "Neutral",
+                        "fr": "Neutre"
+                    }
+                },
+                {
+                    "value": 4,
+                    "label": {
+                        "en": "Somewhat agree",
+                        "fr": "Plutôt d'accord"
+                    }
+                },
+                {
+                    "value": 5,
+                    "label": {
+                        "en": "Strongly agree",
+                        "fr": "Fortement d'accord"
+                    }
+                },
+                {
+                    "value": -99,
+                    "label": {
+                        "en": "Don't know",
+                        "fr": "Ne sais pas"
+                    }
+                }
+            ]
+        }
+    },
+    "languages": {
+        "en": {
+            "code": "en"
+        },
+        "fr": {
+            "code": "fr"
+        }
+    },
+    "parties": [
+        {
+            "code": "NUP",
+            "name": {
+                "en": "The Northern Unity Party",
+                "fr": "Parti de l'Unité du Nord"
+            },
+            "color": "#f9ee16",
+            "leader": {
+                "en": "Margaret Thornfield",
+                "fr": "Margaret Thornfield"
+            },
+            "leader_id": "thornfield_m"
+        },
+        {
+            "code": "GFA",
+            "name": {
+                "en": "The Green Future Alliance",
+                "fr": "Alliance Verte du Futur"
+            },
+            "color": "#2d8f3f",
+            "leader": {
+                "en": "Dr. Sylvain Dubois",
+                "fr": "Dr Sylvain Dubois"
+            },
+            "leader_id": "dubois_s"
+        },
+        {
+            "code": "MFC",
+            "name": {
+                "en": "The Maritime First Coalition",
+                "fr": "Coalition Maritime d'Abord"
+            },
+            "color": "#1e5a96",
+            "leader": {
+                "en": "Sarah MacKenzie",
+                "fr": "Sarah MacKenzie"
+            },
+            "leader_id": "mackenzie_s"
+        },
+        {
+            "code": "DDM",
+            "name": {
+                "en": "The Digital Democracy Movement",
+                "fr": "Mouvement de Démocratie Numérique"
+            },
+            "color": "#8b3f99",
+            "leader": {
+                "en": "Raj Patel",
+                "fr": "Raj Patel"
+            },
+            "leader_id": "patel_r"
+        }
+    ]
+}
