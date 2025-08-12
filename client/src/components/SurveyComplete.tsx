@@ -7,7 +7,7 @@ import ErrorDisplay from './ErrorDisplay';
 const SurveyComplete = () => {
   const navigate = useNavigate();
   const location = useLocation();
-  const [results, setResults] = useState(null);
+  const [results, setResults] = useState<Record<string, number>[] | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   
@@ -35,7 +35,7 @@ const SurveyComplete = () => {
           throw new Error('Failed to fetch results');
         }
 
-        const resultsData = await response.json();
+        const resultsData: Record<string, number>[] = await response.json();
         setResults(resultsData);
         setError(null);
       } catch (err) {

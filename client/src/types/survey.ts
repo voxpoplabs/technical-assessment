@@ -2,14 +2,14 @@ export interface SurveyAnswers {
   [questionId: string]: string;
 }
 
-export interface LocalizedLabel {
+export interface LocalizedText {
   en: string;
   fr: string;
 }
 
 export interface Choice {
   value: number;
-  label: LocalizedLabel;
+  label: LocalizedText;
 }
 
 export interface ChoiceGroup {
@@ -18,15 +18,15 @@ export interface ChoiceGroup {
   choices: Choice[];
 }
 
-export interface PolicyQuestion {
+export interface Question {
   id: string;
-  type: 'policy';
+  type: string;
   category: string;
   choiceGroup: string;
-  answerType: 'single';
-  displayType: 'radio';
-  label: LocalizedLabel;
-  learnMore?: LocalizedLabel;
+  answerType: string;
+  displayType: string;
+  label: LocalizedText;
+  learnMore?: LocalizedText;
   order: string;
 }
 
@@ -34,8 +34,22 @@ export interface Language {
   code: string;
 }
 
-export interface PoliticalSurveyConfig {
-  questions: { [key: string]: PolicyQuestion };
-  choiceGroups: { [key: string]: ChoiceGroup };
-  languages: { [key: string]: Language };
+export interface Leader {
+  en: string;
+  fr: string;
+}
+
+export interface Party {
+  code: string;
+  name: LocalizedText;
+  color: string;
+  leader: Leader;
+  leader_id: string;
+}
+
+export interface SurveyConfig {
+  questions: Record<string, Question>;
+  choiceGroups: Record<string, ChoiceGroup>;
+  languages: Record<string, Language>;
+  parties: Party[];
 }

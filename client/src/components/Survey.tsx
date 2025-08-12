@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { SurveyAnswers, PolicyQuestion } from '../types/survey.ts';
+import { SurveyAnswers, Question } from '../types/survey.ts';
 import { useSurveyConfig } from '../hooks/useSurveyConfig';
 import QuestionPage from './QuestionPage.tsx';
 import LoadingSpinner from './LoadingSpinner';
@@ -14,7 +14,7 @@ const Survey = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const { config, loading, error, refetch } = useSurveyConfig();
   
-  const questions: PolicyQuestion[] = config 
+  const questions: Question[] = config
     ? Object.keys(config.questions).map(key => config.questions[key])
     : [];
 

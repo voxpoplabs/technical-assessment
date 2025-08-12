@@ -1,15 +1,15 @@
 import { useState, useEffect } from 'react';
-import { PoliticalSurveyConfig } from '../types/survey';
+import { SurveyConfig } from '../types/survey';
 
 interface UseSurveyConfigResult {
-  config: PoliticalSurveyConfig | null;
+  config: SurveyConfig | null;
   loading: boolean;
   error: string | null;
   refetch: () => void;
 }
 
 export const useSurveyConfig = (): UseSurveyConfigResult => {
-  const [config, setConfig] = useState<PoliticalSurveyConfig | null>(null);
+  const [config, setConfig] = useState<SurveyConfig | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 

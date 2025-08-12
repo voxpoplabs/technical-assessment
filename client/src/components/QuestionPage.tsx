@@ -1,14 +1,14 @@
-import { PolicyQuestion, PoliticalSurveyConfig, Choice } from "../types/survey.ts";
+import { Question, SurveyConfig, Choice } from "../types/survey.ts";
 
 interface QuestionPageProps {
-  question: PolicyQuestion;
+  question: Question;
   answer: string;
   onAnswer: (questionId: string, answer: string) => void;
   onNext: () => void;
   onPrevious: () => void;
   canGoBack: boolean;
   isLastQuestion: boolean;
-  config: PoliticalSurveyConfig;
+  config: SurveyConfig;
 }
 
 const QuestionPage = ({
